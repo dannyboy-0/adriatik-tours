@@ -202,7 +202,7 @@ export default function App() {
   }, [activeCategory, filters, searchQuery]);
 
   return (
-    <div className="min-h-screen bg-[#F8F4ED] font-sans" style={{
+    <div className="min-h-screen bg-white font-sans" style={{
       fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif',
     }}>
       <style>{`
@@ -291,10 +291,10 @@ export default function App() {
 function Header({ user, setUser, navigate, searchQuery, setSearchQuery, wishlistCount }) {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <header className="sticky top-0 z-40 bg-[#F8F4ED]/90 backdrop-blur-md border-b border-[#E9E2D5]">
+    <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-[#E9E2D5]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
         <button onClick={() => navigate('home')} className="flex items-center gap-2 group">
-          <div className="w-9 h-9 rounded-full bg-[#C75A3F] flex items-center justify-center text-white font-bold text-lg group-hover:scale-105 transition-transform">b</div>
+          <img src="/logo.png" alt="Adriatik Tours" className="h-9 w-auto group-hover:scale-105 transition-transform" />
           <span className="font-serif text-2xl tracking-tight text-[#1F1D1B]">adriatik tours</span>
         </button>
 
@@ -1163,7 +1163,7 @@ function AgentPage({ agent, tours, navigate, wishlist, toggleWishlist }) {
     <div className="fade-in">
       <div className="relative h-[360px] overflow-hidden">
         <img src={agent.cover} alt="" className="absolute inset-0 w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#F8F4ED] via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent" />
       </div>
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 -mt-32 relative">
         <div className="bg-white rounded-3xl shadow-xl p-8 lg:p-10 border border-[#E9E2D5]">
@@ -1455,7 +1455,7 @@ function AuthPage({ navigate, setUser, initialType = 'client' }) {
   return (
     <div className="fade-in max-w-md mx-auto px-6 py-16">
       <div className="text-center mb-8">
-        <div className="w-12 h-12 rounded-full bg-[#C75A3F] flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">b</div>
+        <img src="/logo.png" alt="Adriatik Tours" className="h-12 w-auto mx-auto mb-4" />
         <h1 className="font-serif text-4xl text-[#1F1D1B] mb-2">
           {mode === 'signup' ? 'Welcome to Adriatik Tours' : 'Welcome back'}
         </h1>
@@ -1813,7 +1813,7 @@ function Footer({ navigate }) {
         <div className="grid md:grid-cols-12 gap-10 mb-12">
           <div className="md:col-span-4">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-[#C75A3F] flex items-center justify-center font-bold">b</div>
+              <img src="/logo.png" alt="Adriatik Tours" className="h-8 w-auto" />
               <span className="font-serif text-2xl">adriatik tours</span>
             </div>
             <p className="text-sm text-white/60 leading-relaxed mb-4 max-w-sm">
