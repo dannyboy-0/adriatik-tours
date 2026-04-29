@@ -27,7 +27,7 @@ home, browse, tour (detail), agents, agent (profile), booking, auth, dashboard-c
 
 ## Current state
 - Deployed on Vercel via GitHub auto-deploy
-- Images use Picsum (picsum.photos with seeded URLs) since Unsplash was unreliable
+- Images: real Albania/Kosovo photos from Wikimedia Commons (upload.wikimedia.org direct file URLs); agent portraits from i.pravatar.cc
 - Mock data only — no real backend yet
 
 ## Strategic foundation

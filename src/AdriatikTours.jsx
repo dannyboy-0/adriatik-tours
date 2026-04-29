@@ -21,7 +21,7 @@ const TOURS = [
     city: 'Theth', category: 'hiking', duration: '3 days', durationHours: 72,
     price: 285, rating: 4.94, reviews: 287, groupSize: 12, difficulty: 'moderate',
     languages: ['English', 'Albanian', 'Italian'], instant: true, cancellation: 'Free 48h',
-    agentId: 1, image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900',
+    agentId: 1, image: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Jezerski_Vrh_%282694%29_sa_Karanfila_%282480%29.jpg',
     badge: 'Guest Favorite',
     description: 'Cross the legendary Valbona Pass on foot through one of Europe\'s last truly wild mountain landscapes. Stay in family-run guesthouses, share meals with shepherds, and witness the dramatic limestone peaks of the Accursed Mountains.',
   },
@@ -30,7 +30,7 @@ const TOURS = [
     city: 'Berat', category: 'cultural', duration: '6 hours', durationHours: 6,
     price: 65, rating: 4.89, reviews: 412, groupSize: 8, difficulty: 'easy',
     languages: ['English', 'Italian', 'German'], instant: true, cancellation: 'Free 24h',
-    agentId: 2, image: 'https://images.unsplash.com/photo-1591287083773-9a5b6e0fa9bd?w=900',
+    agentId: 2, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Berat_57.jpg/3840px-Berat_57.jpg',
     badge: 'Top Rated',
     description: 'Wander the city of a thousand windows with a local historian. Climb to the still-inhabited castle, taste organic wines from the Tomori valley, and end with a sunset over the Osum river.',
   },
@@ -39,7 +39,7 @@ const TOURS = [
     city: 'Sarandë', category: 'beach', duration: '8 hours', durationHours: 8,
     price: 75, rating: 4.82, reviews: 624, groupSize: 14, difficulty: 'easy',
     languages: ['English', 'Italian'], instant: true, cancellation: 'Free 24h',
-    agentId: 3, image: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=900',
+    agentId: 3, image: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Ksamill-1.jpg',
     description: 'Snorkel the turquoise islets of Ksamil before exploring Butrint, the layered ancient city where Greek, Roman, Byzantine, and Venetian ruins overlap in a single afternoon.',
   },
   {
@@ -47,7 +47,7 @@ const TOURS = [
     city: 'Pristina', category: 'cultural', duration: '10 hours', durationHours: 10,
     price: 95, rating: 4.91, reviews: 198, groupSize: 8, difficulty: 'easy',
     languages: ['English', 'German'], instant: true, cancellation: 'Free 48h',
-    agentId: 4, image: 'https://images.unsplash.com/photo-1600328759553-355d8de6c1ed?w=900',
+    agentId: 4, image: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Prishtina_seen_from_Mother_Theresa_Cathedral.jpg',
     badge: 'Top Rated',
     description: 'Three centuries in a day: Newborn Pristina, the Ottoman bridges and tekkes of Prizren, and the frescoes of Gracanica monastery — a UNESCO-protected jewel of medieval Serbian art.',
   },
@@ -56,7 +56,7 @@ const TOURS = [
     city: 'Peja', category: 'adventure', duration: '7 hours', durationHours: 7,
     price: 110, rating: 4.96, reviews: 156, groupSize: 6, difficulty: 'moderate',
     languages: ['English', 'Albanian'], instant: false, cancellation: 'Free 48h',
-    agentId: 5, image: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=900',
+    agentId: 5, image: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Rugova_Canyon.jpg',
     description: 'Climb cable-equipped routes carved into limestone walls above the Rugova river, then cool off at the Drelaj waterfalls. Certified mountain guides, full safety equipment included.',
   },
   {
@@ -64,7 +64,7 @@ const TOURS = [
     city: 'Tirana', category: 'crossborder', duration: '7 days', durationHours: 168,
     price: 1190, rating: 4.87, reviews: 92, groupSize: 14, difficulty: 'moderate',
     languages: ['English', 'German'], instant: false, cancellation: 'Strict',
-    agentId: 1, image: 'https://images.unsplash.com/photo-1565128939078-ce385cf389e1?w=900',
+    agentId: 1, image: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Gjirokaster_2016-2017.jpg',
     badge: 'Editor\'s Pick',
     description: 'A curated circuit through both countries — Tirana, Berat, Gjirokastër, Prizren, Pristina, Peja, and the Albanian Alps. Boutique guesthouses, all transfers, and a single dedicated guide throughout.',
   },
@@ -73,7 +73,7 @@ const TOURS = [
     city: 'Lezhë', category: 'food', duration: '5 hours', durationHours: 5,
     price: 85, rating: 4.97, reviews: 341, groupSize: 10, difficulty: 'easy',
     languages: ['English', 'Italian'], instant: true, cancellation: 'Free 48h',
-    agentId: 2, image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=900',
+    agentId: 2, image: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Elbasan_tav%C3%AB_me_mish_qengji.jpg',
     badge: 'Guest Favorite',
     description: 'Visit the farm that put Albanian gastronomy on the international map. A long lunch of fifteen courses cooked from the surrounding valley, paired with biodynamic Kallmet wine.',
   },
@@ -82,7 +82,7 @@ const TOURS = [
     city: 'Tirana', category: 'city', duration: '4 hours', durationHours: 4,
     price: 42, rating: 4.78, reviews: 503, groupSize: 12, difficulty: 'easy',
     languages: ['English'], instant: true, cancellation: 'Free 24h',
-    agentId: 3, image: 'https://images.unsplash.com/photo-1564604761598-3a76d9a40b4f?w=900',
+    agentId: 3, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Skanderbeg_square_tirana_2016.jpg/3840px-Skanderbeg_square_tirana_2016.jpg',
     description: 'A walking tour through Tirana\'s painted Soviet-era blocks, the Bunk\'Art atomic shelter, and the new wave of natural-wine bars in Blloku. Ends with a rakia tasting.',
   },
   {
@@ -90,7 +90,7 @@ const TOURS = [
     city: 'Përmet', category: 'adventure', duration: '6 hours', durationHours: 6,
     price: 70, rating: 4.85, reviews: 234, groupSize: 8, difficulty: 'moderate',
     languages: ['English', 'Italian'], instant: true, cancellation: 'Free 48h',
-    agentId: 5, image: 'https://images.unsplash.com/photo-1530866495561-507c9faab2ed?w=900',
+    agentId: 5, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Vjosa_river_mouth.jpg/3840px-Vjosa_river_mouth.jpg',
     description: 'Raft the newly-protected Vjosa, Europe\'s only undammed wild river. Class II–III rapids, a swim in the thermal springs of Bënjë, and a riverside lunch.',
   },
 ];
@@ -102,8 +102,8 @@ const AGENTS = [
     rating: 4.92, reviews: 1284, tours: 18, years: 17,
     verified: true, license: 'LN-2816-03-2017', responseTime: '< 2 hours',
     badges: ['Top Rated', 'Mountain Certified', 'ATOA Member', 'Sustainable'],
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
-    cover: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200',
+    image: 'https://i.pravatar.cc/400?img=12',
+    cover: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Jezerski_Vrh_%282694%29_sa_Karanfila_%282480%29.jpg',
     bio: 'Founded in 2008 by mountain guide Endrit Hoxha, Outdoor Albania has been pioneering responsible adventure travel in the Albanian Alps and beyond. Our team of certified guides speak fluent English, Italian, and Albanian.',
     specialties: ['Hiking', 'Adventure', 'Cross-border'],
   },
@@ -113,8 +113,8 @@ const AGENTS = [
     rating: 4.89, reviews: 892, tours: 12, years: 9,
     verified: true, license: 'LN-4421-08-2016', responseTime: '< 1 hour',
     badges: ['Top Rated', 'ATOA Member'],
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
-    cover: 'https://images.unsplash.com/photo-1591287083773-9a5b6e0fa9bd?w=1200',
+    image: 'https://i.pravatar.cc/400?img=5',
+    cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Berat_57.jpg/3840px-Berat_57.jpg',
     bio: 'A small family-run agency in Berat\'s historic Mangalem quarter, specializing in cultural and food experiences across central Albania.',
     specialties: ['Cultural', 'Food & Wine', 'City Tours'],
   },
@@ -124,8 +124,8 @@ const AGENTS = [
     rating: 4.81, reviews: 1156, tours: 22, years: 11,
     verified: true, license: 'LN-1124-05-2014', responseTime: '< 3 hours',
     badges: ['Top Rated'],
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400',
-    cover: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200',
+    image: 'https://i.pravatar.cc/400?img=68',
+    cover: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Ksamill-1.jpg',
     bio: 'Riviera specialists with a network of local boat captains, beach clubs, and inland village hosts from Vlorë to the Greek border.',
     specialties: ['Beach', 'Day Trips', 'Cultural'],
   },
@@ -135,8 +135,8 @@ const AGENTS = [
     rating: 4.93, reviews: 487, tours: 14, years: 7,
     verified: true, license: 'KS-TO-0089-2018', responseTime: '< 1 hour',
     badges: ['Top Rated', 'Sustainable'],
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400',
-    cover: 'https://images.unsplash.com/photo-1600328759553-355d8de6c1ed?w=1200',
+    image: 'https://i.pravatar.cc/400?img=33',
+    cover: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Prishtina_seen_from_Mother_Theresa_Cathedral.jpg',
     bio: 'A young Kosovar agency founded by three Pristina natives. We focus on contemporary Kosovo — the art scene, the food, the post-war rebirth — alongside the heritage sites.',
     specialties: ['Cultural', 'City Tours', 'Cross-border'],
   },
@@ -146,8 +146,8 @@ const AGENTS = [
     rating: 4.95, reviews: 312, tours: 9, years: 6,
     verified: true, license: 'KS-TO-0142-2019', responseTime: '< 2 hours',
     badges: ['Top Rated', 'Mountain Certified'],
-    image: 'https://images.unsplash.com/photo-1521119989659-a83eee488004?w=400',
-    cover: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200',
+    image: 'https://i.pravatar.cc/400?img=51',
+    cover: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Rugova_Canyon.jpg',
     bio: 'Operated by IFMGA-certified mountain guides based in Peja. Specialized in via ferrata, technical hiking, and the Peaks of the Balkans cross-border trek.',
     specialties: ['Adventure', 'Hiking', 'Cross-border'],
   },
@@ -444,7 +444,7 @@ function HomePage({ tours, agents, navigate, wishlist, toggleWishlist, activeCat
           </div>
           <div className="lg:col-span-5 relative">
             <div className="aspect-[4/5] rounded-[32px] overflow-hidden shadow-2xl">
-              <img src="https://images.unsplash.com/photo-1591287083773-9a5b6e0fa9bd?w=900" alt="Berat Albania" className="w-full h-full object-cover" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Berat_57.jpg/3840px-Berat_57.jpg" alt="Berat Albania" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-5 max-w-[260px]">
               <div className="flex items-center gap-2 mb-2">
@@ -519,8 +519,8 @@ function HomePage({ tours, agents, navigate, wishlist, toggleWishlist, activeCat
       <section className="max-w-[1400px] mx-auto px-6 lg:px-10 py-12">
         <div className="grid md:grid-cols-2 gap-6">
           {[
-            { country: 'Albania', tagline: 'Adriatic shores. Alpine villages. UNESCO old towns.', count: 1483, image: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200' },
-            { country: 'Kosovo', tagline: 'Balkan rebirth. Mountain canyons. Ottoman bazaars.', count: 357, image: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200' },
+            { country: 'Albania', tagline: 'Adriatic shores. Alpine villages. UNESCO old towns.', count: 1483, image: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Ksamill-1.jpg' },
+            { country: 'Kosovo', tagline: 'Balkan rebirth. Mountain canyons. Ottoman bazaars.', count: 357, image: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Rugova_Canyon.jpg' },
           ].map((c) => (
             <button
               key={c.country}
@@ -906,10 +906,10 @@ function TourPage({ tour, agent, navigate, wishlist, toggleWishlist, user }) {
           <img src={tour.image} alt="" className="w-full h-full object-cover" />
         </div>
         {[
-          'https://images.unsplash.com/photo-1551632811-561732d1e306?w=600',
-          'https://images.unsplash.com/photo-1565128939078-ce385cf389e1?w=600',
-          'https://images.unsplash.com/photo-1530866495561-507c9faab2ed?w=600',
-          'https://images.unsplash.com/photo-1564604761598-3a76d9a40b4f?w=600',
+          'https://upload.wikimedia.org/wikipedia/commons/4/41/Lezh%C3%AB%2C_Albania_%E2%80%93_Skanderbeg_Memorial_2016_02.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/1/16/Gjirokaster_2016-2017.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/8/87/Theth_Church_Albania.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Vjosa_river_mouth.jpg/3840px-Vjosa_river_mouth.jpg',
         ].map((src, i) => (
           <div key={i} className="relative">
             <img src={src} alt="" className="w-full h-full object-cover" />
@@ -1854,7 +1854,7 @@ function Footer({ navigate }) {
           </div>
         </div>
         <div className="pt-8 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs text-white/60">
-          <div>© 2026 Adriatik Tours Marketplace OÜ · Tallinn, Estonia · VAT EE102849173</div>
+          <div>© 2026 Adriatik Tours LLC</div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white">Terms</a>
             <a href="#" className="hover:text-white">Privacy (GDPR)</a>
